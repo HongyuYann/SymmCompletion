@@ -1,0 +1,34 @@
+optimizer : {
+  type: AdamW,
+  kwargs: {
+  lr : 0.0004,
+  weight_decay : 0
+}}
+
+
+scheduler: {
+  type: WarmUpCosLR,
+  kwargs: {
+  warmup_epoch: 5,
+  max_epoch: 100,
+  lr_max: 0.0004,
+  lr_min: 0.00002, 
+}}
+
+dataset : {
+  train : { _base_: ./cfgs/dataset_configs/MVP2K.yaml, 
+            others: {subset: 'train'}},
+  val : { _base_: ./cfgs/dataset_configs/MVP2K.yaml, 
+            others: {subset: 'test'}},
+  test : { _base_: ./cfgs/dataset_configs/MVP2K.yaml, 
+            others: {subset: 'test'}}}
+model : {
+  NAME: SymmCompletion, 
+  up_factors: "1, 2", 
+  include_input: False}
+
+total_bs : 64
+step_per_update : 1
+max_epoch : 100
+
+consider_metric: CDL2

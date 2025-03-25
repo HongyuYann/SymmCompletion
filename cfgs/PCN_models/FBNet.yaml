@@ -1,0 +1,37 @@
+optimizer : {
+  type: AdamW,
+  kwargs: {
+  lr : 0.0002,
+  weight_decay : 0.0005
+}}
+
+scheduler: {
+  type: WarmUpCosLR,
+  kwargs: {
+  warmup_epoch: 20,
+  max_epoch: 420,
+  lr_max: 0.0002,
+  lr_min: 0.00001, 
+}}
+
+dataset : {
+  train : { _base_: ./cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'train'}},
+  val : { _base_: ./cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'test'}},
+  test : { _base_: ./cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'test'}}}
+model : {
+  NAME: FBNet, 
+  up_factors: "1, 2, 16", 
+  cyc_num: 3,
+  include_input: False, 
+  num_pc: 128, 
+  num_p0: 512
+}
+
+total_bs : 42
+step_per_update : 1
+max_epoch : 420
+
+consider_metric: CDL1

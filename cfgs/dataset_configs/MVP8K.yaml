@@ -1,0 +1,5 @@
+NAME: MVP
+N_POINTS: 8192
+AUG: False
+PARTIAL_POINTS_PATH: /data/dataset/Completion/MVP_completion/mvp_%s_input.h5
+COMPLETE_POINTS_PATH: /data/dataset/Completion/MVP_completion/mvp_%s_gt_%dpts.h5

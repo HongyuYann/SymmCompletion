@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: KNN_CUDA
+Version: 0.2
+Summary: pytorch version knn support cuda.
+Author: Shuaipeng Li
+Author-email: sli@mail.bnu.edu.cn
+Requires-Dist: numpy
+Requires-Dist: scikit_learn
+Requires-Dist: torch>=1.1.0
