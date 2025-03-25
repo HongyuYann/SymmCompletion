@@ -1,5 +1,5 @@
 ### <div align="center">SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance<div> 
-#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>](https://aruichen.github.io/), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
+#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=zh-CN), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>](https://aruichen.github.io/), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
 #####  <p align="center"> <sup>1</sup>Hong Kong University of Science and Technology, <sup>2</sup>Sichuan University</p>
 <div align="center">
   <a href="https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link">Pretrained Models</a> &ensp;
@@ -69,7 +69,7 @@ sh extensions/install.sh
     python main.py --config cfgs/PCN_models/SymmCompletion.yaml --test --test_interval 50 --ckpt ./ckpts/PCN/ckpt-best.pth --exp_name test_pcn
     ```
 # Pretrained Models
-    We provide all pretrained models in [Google Drive](https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link)
+We provide all pretrained models in [Google Drive](https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link)
 
 # Visualized Results
 <p align="center">
@@ -78,7 +78,7 @@ sh extensions/install.sh
 
 # 🤗 Acknowledgements
 Our code is built on [AnchorFormer](https://github.com/chenzhik/AnchorFormer) codebase. Our work is also inspired by these projects:
-- [FBNet](https://github.com/NeuralCarver/Michelangelo)
+- [FBNet](https://github.com/hikvision-research/3DVision/)
 - [PointNet++](https://github.com/erikwijmans/Pointnet2_PyTorch)
 - [SnowflakeNet](https://github.com/AllenXiangX/SnowflakeNet)
 - [PCN](https://github.com/wentaoyuan/pcn)
