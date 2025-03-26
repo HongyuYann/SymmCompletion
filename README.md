@@ -1,5 +1,5 @@
 ### <div align="center">SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance<div> 
-#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=zh-CN), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>]([https://aruichen.github.io/](https://coolbeam.github.io/index.html)), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
+#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=zh-CN), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>](https://coolbeam.github.io/index.html), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
 #####  <p align="center"> <sup>1</sup>Hong Kong University of Science and Technology, <sup>2</sup>Sichuan University</p>
 <div align="center">
   <a href="https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link">Pretrained Models</a> &ensp;
