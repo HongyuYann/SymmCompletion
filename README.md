@@ -1,5 +1,5 @@
 ### <div align="center">SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance<div> 
-#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=zh-CN), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>](https://aruichen.github.io/), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
+#####  <p align="center"> [Hongyu Yan<sup>*1</sup>](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=zh-CN), Zijun Li<sup>*2</sup>, [Kunming Luo<sup>1</sup>]([https://aruichen.github.io/](https://coolbeam.github.io/index.html)), Li Lu<sup>2</sup>, [Ping Tan<sup>1</sup>](https://ece.hkust.edu.hk/pingtan)
 #####  <p align="center"> <sup>1</sup>Hong Kong University of Science and Technology, <sup>2</sup>Sichuan University</p>
 <div align="center">
   <a href="https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link">Pretrained Models</a> &ensp;
@@ -12,7 +12,7 @@
 # Introduction
 This repository is the code for SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance (AAAI 2025 Oral Presentation)
 
-SymmCompletion is a symmtry-based method for point cloud completion. It efficiently estimates point-wise local symmetry transformation to generate geometry-align partial-missing pairs and initial point clouds. Then, it leverages the geometric features of partial-missing pairs as the explicit symmetric guidance to refine initial point clouds. Qualitative and quantitative evaluations on several benchmark datasets demonstrate that SymmCompletion outperforms state-of-the-art completion networks. 
+SymmCompletion is a symmetry-based method for point cloud completion. It efficiently estimates point-wise local symmetry transformation to generate geometry-align partial-missing pairs and initial point clouds. Then, it leverages the geometric features of partial-missing pairs as the explicit symmetric guidance to refine initial point clouds. Qualitative and quantitative evaluations on several benchmark datasets demonstrate that SymmCompletion outperforms state-of-the-art completion networks. 
 
 <p align="center">
     <img src="assets/teaser.png"/>
