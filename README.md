@@ -89,9 +89,9 @@ Our code is built on [AnchorFormer](https://github.com/chenzhik/AnchorFormer) co
 
 # 📖 BibTeX
 
-  @article{yan2025symmcompletion,
-    title={SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance},
-    author={Yan, Hongyu and Li, Zijun and Luo, Kunming and Lu, Li and Tan, Ping},
-    journal={arXiv preprint arXiv:2503.18007},
-    year={2025}
-  }
+    @article{yan2025symmcompletion,
+        title={SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance},
+        author={Yan, Hongyu and Li, Zijun and Luo, Kunming and Lu, Li and Tan, Ping},
+        journal={arXiv preprint arXiv:2503.18007},
+        year={2025}
+    }
