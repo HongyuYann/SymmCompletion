@@ -1,6 +1,5 @@
 import time
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 import torch
 import argparse
 from tools import run_net
